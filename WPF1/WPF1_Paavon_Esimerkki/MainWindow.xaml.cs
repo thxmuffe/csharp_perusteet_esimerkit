@@ -24,5 +24,10 @@ namespace WPF1_Paavon_Esimerkki
 		{
 			InitializeComponent();
 		}
+
+		private void Examples_UserDefinedClasses(object sender, RoutedEventArgs e)
+		{
+			ClassExample.UserDefinedClass.Example.Example1();
+		}
 	}
 }

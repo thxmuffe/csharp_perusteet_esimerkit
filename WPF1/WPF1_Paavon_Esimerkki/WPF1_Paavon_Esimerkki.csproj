@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1A96143D-7933-4D15-85F1-BC5D260A8858}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>WPF1_Paavon_Esimerkki</RootNamespace>
     <AssemblyName>WPF1_Paavon_Esimerkki</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -33,6 +33,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +66,10 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ClassExample\UserDefinedClass\Address.cs" />
+    <Compile Include="ClassExample\UserDefinedClass\Example.cs" />
+    <Compile Include="ClassExample\UserDefinedClass\School.cs" />
+    <Compile Include="ClassExample\UserDefinedClass\Student.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
