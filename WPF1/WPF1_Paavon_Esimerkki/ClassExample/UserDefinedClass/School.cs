@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace WPF1_Paavon_Esimerkki.ClassExample.UserDefinedClass
 {
+	// Luokan nimeltä "School" kategoria on luokka
+	// Koulu on luokka nimeltä koulu
 	class School
 	{
 		// Object property with no accessor

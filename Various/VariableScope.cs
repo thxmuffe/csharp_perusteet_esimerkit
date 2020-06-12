@@ -4,6 +4,8 @@ public class VariableScope
 {
 	public int Example1()
 	{
+		var z = ExampleCall();
+
 		var x = 1;
 
 		if (x == 1)
@@ -14,9 +16,10 @@ public class VariableScope
 		return x + y;
 	}
 
-	public int Example2()
+	public int ExampleCall() // SISÄÄN
 	{
-		var x = 3;
-		return x;
+		var x = 2;
+		return x; // ULOS
 	}
+
 }

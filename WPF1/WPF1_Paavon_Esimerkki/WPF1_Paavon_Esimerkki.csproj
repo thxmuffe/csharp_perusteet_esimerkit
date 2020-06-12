@@ -66,6 +66,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ClassExample\Enumerables\Example.cs" />
     <Compile Include="ClassExample\UserDefinedClass\Address.cs" />
     <Compile Include="ClassExample\UserDefinedClass\Example.cs" />
     <Compile Include="ClassExample\UserDefinedClass\School.cs" />
