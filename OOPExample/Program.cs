@@ -5,6 +5,11 @@
     // Special because of Main
     private static void Main(string[] args)
     {
+        
+        ShipExample.TestShipClass();
+
+        return; // just test ship, ignore everything else for now..
+
     //  class  object
     //  type   object
     //  type   variable    the object 
