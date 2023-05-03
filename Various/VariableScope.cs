@@ -11,7 +11,9 @@ public class VariableScope
 			var y = 0;
 		}
 
-		return x + y;
+		//return x + y;
+
+		return 0;
 	}
 
 	public int Example2()
