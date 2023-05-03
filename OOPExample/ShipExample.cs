@@ -10,5 +10,9 @@ class ShipExample {
         var boatyMcBoatface = new Ship("Boaty McBoatface");
 
         Console.WriteLine("Ship details: " + boatyMcBoatface);
+
+        var flyingDutchman = new Ship("Flying Dutchman");
+
+        
     }
 }
